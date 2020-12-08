@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://kit.fontawesome.com/c461b3b429.js"crossorigin="anonymous"> </script>
+    <link rel="stylesheet" href="css/style.min.css">
+     
+    <title>Login</title>
+</head>
+<body>
+    
+    <form for="LoginAccount" class="needs-validation" novalidate>
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="LoginEmail">Login Email</label>
+                <input type="email" class="form-control" id="LoginEmail" placeholder="Example@Email.com" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="LoginPassword">Login Password</label>
+                <input type="password" class="form-control" id="LoginPassword" placeholder="Password123" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-2 ">
+            <div class="form-group mb-2">
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                        Remain Logged in
+                    </label>
+                    
+                </div>
+                <button class="btn btn-primary" type="button">Login</button>
+            </div>
+
+            <a href="./register.html" class="btn btn-secondary " role="button" aria-pressed="true">Register New Account</a>
+    
+        </div>
+        
+
+        
+    
+    </form>
+    
+</body>
+</html>
